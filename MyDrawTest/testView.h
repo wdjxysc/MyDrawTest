@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  testView.h
 //  MyDrawTest
 //
 //  Created by djwang on 14/11/21.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "testView.h"
 
-@interface ViewController : UIViewController
+@interface testView : UIView
 
-@property(strong,nonatomic)testView *testView;
 @end
-

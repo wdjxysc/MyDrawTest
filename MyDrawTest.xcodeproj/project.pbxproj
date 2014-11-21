@@ -14,6 +14,7 @@
 		A671DCE51A1F1B8E00E474CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A671DCE41A1F1B8E00E474CB /* Images.xcassets */; };
 		A671DCE81A1F1B8E00E474CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A671DCE61A1F1B8E00E474CB /* LaunchScreen.xib */; };
 		A671DCF41A1F1B8E00E474CB /* MyDrawTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A671DCF31A1F1B8E00E474CB /* MyDrawTestTests.m */; };
+		A671DD011A1F229400E474CB /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = A671DD001A1F229400E474CB /* testView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A671DCED1A1F1B8E00E474CB /* MyDrawTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDrawTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A671DCF21A1F1B8E00E474CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A671DCF31A1F1B8E00E474CB /* MyDrawTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDrawTestTests.m; sourceTree = "<group>"; };
+		A671DCFF1A1F229400E474CB /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		A671DD001A1F229400E474CB /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		A671DCD61A1F1B8E00E474CB /* MyDrawTest */ = {
 			isa = PBXGroup;
 			children = (
+				A671DCFF1A1F229400E474CB /* testView.h */,
+				A671DD001A1F229400E474CB /* testView.m */,
 				A671DCDB1A1F1B8E00E474CB /* AppDelegate.h */,
 				A671DCDC1A1F1B8E00E474CB /* AppDelegate.m */,
 				A671DCDE1A1F1B8E00E474CB /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A671DD011A1F229400E474CB /* testView.m in Sources */,
 				A671DCE01A1F1B8E00E474CB /* ViewController.m in Sources */,
 				A671DCDD1A1F1B8E00E474CB /* AppDelegate.m in Sources */,
 				A671DCDA1A1F1B8E00E474CB /* main.m in Sources */,
